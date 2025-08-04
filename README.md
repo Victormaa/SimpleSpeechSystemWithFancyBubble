@@ -1,27 +1,9 @@
-# FancySpeechBubble
-A fancy speech bubble based on Unity UI Text
+# Super Simple Dialogue System
+A super simple system to use
 
-![Example.gif](./Example.gif)
 
-## How to use this
-
-Just download the Unity package [FancySpeechBubble.unitypackage](./FancySpeechBubble.unitypackage). I also have a [blog post](http://solosodium.github.io/2017-03-23-fancy-speech-bubble) about this.
-
-## What's important
-
-Everything happens in the script [FancySpeechBubble.cs](./Assets/FancySpeechBubble/FancySpeechBubble.cs). The script needs to be attached to a GameObject with **UI.Text** and **UI.ContentSizeFitter**. There are a few configurable parameters for the script:
-
-| Parameter                    | Type   | Description                                                                      |
-| :--------------------------- | :----- | :------------------------------------------------------------------------------- |
-| **characterStartSize**       | int    | starting font size of character scale-up animation (default is 1)                |
-| **characterAnimateSpeed**    | float  | charater scale-up animation speed (font size change / second) (default is 1000f) |
-| **rawText**                  | string | *readonly*: raw text of the speech bubble                                        |
-| **processedText**            | string | *readonly*: processed text with '\n' indicating line breaks                      |
-| **bubbleBackground**         | Image  | *optional*: speech bubble background                                             |
-| **backgroundMinimumHeight**  | float  | *optional*: speech bubble background minimm height                               |
-| **backgroundVerticalMargin** | float  | *optional*: speech bubble background top and bottom margin combined              |
-
-To see it in action, try run the [Example scene](./Assets/FancySpeechBubble/Example.unity).
+## Licence
+Copyright 2025 victormaa
 
 ## MIT Licence
 
